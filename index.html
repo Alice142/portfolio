@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alice Silva - Desenvolvedor Frontend</title>
+
+  <link rel="stylesheet" href="src/css/font-awesome.css" />
+  <link rel="stylesheet" href="src/css/reset.css" />
+  
+  <!-- Global -->
+  <link rel="stylesheet" href="src/css/globais.css" />
+  <link rel="stylesheet" href="src/css/variaveis.css" />
+  <link rel="stylesheet" href="src/css/secoes/header.css" />
+  <link rel="stylesheet" href="src/css/secoes/home.css" />
+  <link rel="stylesheet" href="src/css/secoes/sobre.css" />
+  <link rel="stylesheet" href="src/css/secoes/habilidades.css" />
+  <link rel="stylesheet" href="src/css/secoes/projetos.css" />
+  <link rel="stylesheet" href="src/css/secoes/footer.css" />
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="row justify-content-between alinhar-itens-no-centro">
+        <a href="#">
+          <h1 class="logo">AS</h1>
+        </a>
+        <nav>
+          <input id="menu-hamburguer" type="checkbox" />
+
+          <label for="menu-hamburguer">
+            <div class="menu">
+              <span class="hamburguer"></span>
+            </div>
+          </label>
+          <ul>
+            <li><a href="#sobre-mim">Sobre mim</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#projetos">Meus projetos</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <section class="home">
+    <div class="container">
+      <div class="row full-screen alinhar-itens-no-centro">
+        <div class="texto-home">
+          <p>Olá 😄,</p>
+          <h1>Sou a Alice Silva</h1>
+          <h2>Desenvolvedor Frontend</h2>
+
+          <div class="redes-sociais">
+            <a href="https://www.linkedin.com/in/alice-dev-dd34/" target="_blank" class="outer-shadow">
+              <i class="fab fa-linkedin-in"></i></a>
+            <a href="https://api.whatsapp.com/send/?phone=5544998226575&text=Ol%C3%A1+sou+a+Alice%2C+prazer+ja+lhe+respondo.+&type=phone_number&app_absent=0" target="_blank" class="outer-shadow">
+              <i class="fab fa-whatsapp"></i></a>
+            <a href="https://github.com/Alice142" target="_blank" class="outer-shadow">
+              <i class="fab fa-github"></i></a>
+            <a  href="https://www.instagram.com/alice_oficial_011/" target="_blank" class="outer-shadow">
+              <i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+
+        <div class="img-home">
+          <div class="img-box inner-shadow">
+            <img class="outer-shadow" src="src/imagens/foto-perfil.jpg" alt="foto do perfil do Ricardo" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="sobre-mim section" id="sobre-mim">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Sobre mim</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="imagem-sobre-mim">
+          <div class="img-box inner-shadow">
+            <img src="src/imagens/foto-perfil.jpg" alt="foto sobre mim" class="outer-shadow" />
+          </div>
+        </div>
+        <div class="informacoes-sobre-mim">
+          <p>
+            <strong>Olá! Me chamo Alice Silva e sou um desenvolvedor frontend em
+              formação!</strong>
+              Gosto MUITO da área de tecnologia, e tenho certeza que posso contribuir em qualquer time com as minhas habilidades.
+          </p>
+
+          <p>
+           Estou sempre me desafiando com novos projetos e participando de comunidades de programação para buscar feedback de outros desenvolvedores e desenvolvedoras. Além de tentar ajudar essas pessoas com o que eu já aprendi. 😁
+          </p>
+
+          <p>
+            Ah, gosto de livros, cozinhar, jogos, filmes, séries e outras nerdices. 💜
+          </p>
+
+          <div class="botoes">
+            <a target="_blank" href="/src/arquivos/cv.pdf" class="botao outer-shadow">Veja meu CV</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="habilidades section" id="habilidades">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Habilidades</h2>
+        </div>
+      </div>
+
+      <div class="container-habilidades">
+        <div class="informacoes javascript">
+          <div class="logo">
+            <i class="devicon devicon-javascript-plain" id="javascript"></i>
+          </div>
+          <h3>JavaScript</h3>
+          <p>Estou estudando atualmente.
+            <br>
+            <p> Variáveis e operadores.</p>
+            <p>Laços de repetições.</p>
+            <p>Funções.</p>
+            <p>Objeto.</p>
+            <p>DOM.</p>
+        </div>
+
+        <div class="informacoes html">
+          <div class="logo">
+            <i class="devicon devicon-html5-plain-wordmark" id="html"></i>
+          </div>
+          <h3>HTML5</h3>
+          <p>Venho estudando HTML a um bom tempo. Tenho boa práticas no código HTML tal como utilizar as tags de formatações (header, section e footer), sempre manter o HTML limpo utilizando style quando necessário.
+          </p>
+        </div>
+
+        <div class="informacoes css">
+          <div class="logo">
+            <i class="devicon devicon-css3-plain-wordmark" id="css"></i>
+          </div>
+          <h3>CSS3</h3>
+          <p>Amo trabalhar com CSS, a liberdadeiro de estilização que proporciona e os resultados que podem ser alcançados é mito bacana. </p>
+          <p>Atualmente ando utilizando muito Bootstrap para estilizar meus projetos, mas também me dou bem com   Flexbox e  Grid.</p>
+        </div>
+
+        <div class="informacoes github">
+          <div class="logo">
+            <i class="devicon devicon-github-original" id="github"></i>
+          </div>
+          <h3>GitHub</h3>
+          <p>Github sem dúvida é uma plataforma incrível, a utilizo com frequência para hospedar e divulgar meu trabalho. Aprendi muito sobre essa ferramenta e venho aprendendo cada vez mais.</p>
+        </div>
+
+        <div class="informacoes git">
+          <div class="logo">
+            <i class="devicon devicon-git-plain" id="git"></i>
+          </div>
+          <h3>Git</h3>
+          <p>Uma das primeiras ferramentas que aprendi a utilizá-la junto ao Github, por mais que o VScode seja mais fácil para subir arquivos para o Github, sei de sua importância e tento utilizá-la com frequência.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="projetos section" id="projetos">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Meus projetos</h2>
+        </div>
+      </div>
+
+      <div class="container-projetos">
+        <div class="projeto">        
+          <a href="https://github.com/Alice142/projeto-finas" target="_blank">
+            <img src="src/imagens/infusion-mob.gif" alt="Infusion" />
+            <h3>Infusion</h3>
+            <div class="informacoes-projeto">          
+              <p>Projeto feito usando HTML, CSS e JavaScript</p>
+              <p>🔗 Ver no GitHub Pages</p>
+            </div>     
+          </a>
+        </div>
+
+        <div class="projeto">        
+          <a href="https://github.com/Alice142/spotify" target="_blank">
+            <img src="src/imagens/spotify.gif" alt="Spotify" />
+            <h3>Spotify</h3>
+            <div class="informacoes-projeto">          
+              <p>Projeto feito usando HTML, CSS e Bootstrap</p>
+              <p>🔗 Ver no GitHub Pages</p>
+            </div>      
+          </a>          
+        </div>
+
+        <div class="projeto">     
+          <a href="https://github.com/Alice142/projeto-finas" target="_blank">
+            <img src="src/imagens/finas.gif" alt="finas" />
+            <h3>Finas</h3>
+            <div class="informacoes-projeto">
+              <p>Projeto feito usando HTML, CSS e Bootstrap</p>
+              <p>🔗 Ver no GitHub Pages</p>
+            </div>
+          </a>   
+        </div>
+
+        <div class="projeto">
+          <a href="https://github.com">
+            <img src="src/imagens/lol.gif" alt="League of Legends" />
+            <h3>League of Legends</h3>
+            <div class="informacoes-projeto">
+              <p>rojeto feito usando HTML, CSS e Bootstrap</p>
+              <p>🔗 Ver no GitHub Pages</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <h2>Me envie uma mensagem!</h2>
+      <div class="redes-sociais">
+        <a href="https://www.linkedin.com/in/alice-dev-dd34/" target="_blank" class="outer-shadow">
+          <i class="fab fa-linkedin-in"></i></a>
+        <a href="https://api.whatsapp.com/send/?phone=5544998226575&text=Ol%C3%A1+sou+a+Alice%2C+prazer+ja+lhe+respondo.+&type=phone_number&app_absent=0" target="_blank" class="outer-shadow">
+          <i class="fab fa-whatsapp"></i></a>
+        <a href="https://github.com/Alice142" target="_blank" class="outer-shadow">
+          <i class="fab fa-github"></i></a>
+        <a href="https://www.instagram.com/alice_oficial_011/" target="_blank" class="outer-shadow">
+          <i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
